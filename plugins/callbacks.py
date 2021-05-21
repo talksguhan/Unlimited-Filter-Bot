@@ -52,7 +52,7 @@ async def cb_handler(client, query):
                 ],
                 [
                     InlineKeyboardButton("Movie Channel🔰", url="https://t.me/Tamil_Tentkotta"),
-                    InlineKeyboardButton("Group♻", url="https://t.me/TentkottaTamil_Chat")
+                    InlineKeyboardButton("Group♻", url="https://t.me/TamilTentkotta_Chat")
                 ]
             ]
         )
