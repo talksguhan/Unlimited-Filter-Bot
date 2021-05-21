@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Movie Channel🔰", url="https://t.me/Tamil_Tentkotta"),
-                    InlineKeyboardButton("About Me⚡", callback_data="about_data")
+                    InlineKeyboardButton("Channel", url="https://t.me/Tamil_Tentkotta"),
+                    InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("Movie Channel🔰", url="https://t.me/Tamil_Tentkotta"),
-                    InlineKeyboardButton("Group♻", url="https://t.me/TamilTentkotta_Chat")
+                    InlineKeyboardButton("Channel", url="https://t.me/Tamil_Tentkotta"),
+                    InlineKeyboardButton("Group", url="https://t.me/TamilTentkotta_Chat")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                 
+                        "SOURCE CODE", url="https://t.me/Thalapathy_off")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
